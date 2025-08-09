@@ -1,0 +1,19 @@
+body {background-color:salmon;
+color:white;}
+
+
+h1 {text-align: center;
+    font-family:Fleur De Leah;
+font-size: 60px;
+margin-bottom: 10px;
+
+}
+h2 {font-family: "Fleur De Leah";
+font-size: 35px;
+text-align:center;
+margin-top: 10px
+;
+}
+img{width:200px;height:250px;
+border-radius:190px;
+margin-left:250px;}
