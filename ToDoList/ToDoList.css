@@ -58,3 +58,8 @@ h1 {
   width: auto;
   background-color: goldenrod;
 }
+#walk,
+#water {
+  postion: absolute;
+  cursor: grab;
+}
