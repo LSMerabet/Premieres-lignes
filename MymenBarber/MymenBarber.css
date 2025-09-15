@@ -23,7 +23,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: rgb(0, 0, 0);
-  background: black rgb(117, 17, 17);
+  position: relative;
 }
 .background {
   position: fixed; /* reste en fond même quand on scroll*/
@@ -33,7 +33,8 @@ body {
   height: 100%;
   display: flex;
   z-index: -1; /* derrière le contenu*/
-  background: black rgb(117, 17, 17);
+  background-color: rgb(117, 17, 17);
+  background-size: cover;
 }
 
 .background img {
@@ -41,6 +42,7 @@ body {
   height: 0;
   object-fit: cover;
   animation: rollDown 1.5s forwards ease-out;
+  background-size: cover;
 }
 
 @keyframes rollDown {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Men Barber</title>
+    <link rel="stylesheet" href="MymenBarber.css" />
+  </head>
+  <body>
+      <div class="background">
+      <img src="/Images/Barber2.png" alt="Photo 1" />
+      <img src="/Images/Barber3.png" alt="Photo 2" />
+      <img src="/Images/Barber1.png" alt="Photo 3" />
+    </div>
+    <header id=mainHeader">
+      <h1>My Men Barber</h1>
+      <img src="/Images/Mymenbarber.png" id="logoTitle" alt="BarberShop" />
+      <nav id="mainNav">
+        <ul>
+          <li><a href="#">Acceuil</a></li>
+          <li><a href="#">Galeries</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">A propos</a></li>
+        </ul>
+      </nav>
+      <button id="menuToggle">
+        <img src="/images/layout/hamburger.svg" alt="Ouvrir /Fermer le menu" />
+      </button>
+    </header>
+    <!--Ici se temine le #mainHeader-->
+    <main id="PageContent">
+      <h1>Contactez-nous</h1>
+      <p>
+        Merci de remplir le formulaire suivant pour nous contacter. Tous les
+        champs de ce formulaire sont requis
+      </p>
+      <form id="frm Contact" action="Merci.html">
+        <div>
+          <div>
+            <label for="fName">Prénom</label>
+            <input type="text" name="fName" id="fName" required />
+          </div>
+          <div>
+            <label for="lName">Nom de famille</label>
+            <input type="text" name="lName" id="lName" required />
+          </div>
+          <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="message"> Votre message</label>
+            <textarea name="message" id="message" required></textarea>
+          </div>
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+    </main>
+    <!--Ici se temine le #PageContent-->
+    <footer id="mainFooter">
+      <p>&copy; Copyright Lounis Merabet - 2025</p>
+    </footer>
+    <!--Ici se temine le #mainFooter-->
+  </body>
+</html>
